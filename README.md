@@ -1,10 +1,10 @@
-# Rock–Paper–Scissors–Plus Game Referee Bot
+## Rock–Paper–Scissors–Plus Game Referee Bot
+Overview
 
-## Overview
-This project implements a **minimal conversational game referee** for the Rock–Paper–Scissors–Plus game.  
-The system runs as a CLI-based chatbot that enforces game rules, tracks state across turns, and provides clear, round-by-round feedback to the user.
+This project implements a minimal conversational game referee for the Rock–Paper–Scissors–Plus game.
+The application runs as a CLI-based chatbot that enforces game rules, tracks state across turns, and provides clear, round-by-round feedback to the user.
 
-The implementation focuses on **logical correctness, state management, and agent-style design**, rather than UI polish or external AI services.
+The focus of this project is on logical correctness, clean state management, and agent-style system design, rather than UI polish or external AI services.
 
 ---
 
@@ -58,3 +58,29 @@ This separation improves clarity, maintainability, and ease of extension.
 ---
 
 ## Sample Output
+
+
+
+## Trade-offs
+- Implemented as a CLI-based conversational loop instead of a graphical UI
+- Bot behavior uses random move selection for simplicity
+- No external APIs, databases, or AI models to ensure deterministic execution
+
+---
+
+## Future Improvements
+- Smarter bot strategies based on previous rounds
+- Natural language input handling (e.g., “I choose rock”)
+- Multi-agent separation between referee and opponent
+- Structured outputs (JSON) for UI or frontend integration
+
+---
+
+## Key Highlights
+- Clear and persistent state modeling
+- Explicit tool-based logic
+- Deterministic and testable behavior
+- Clean separation of responsibilities
+
+This project demonstrates how agent-style systems can be designed with strong logical foundations and production-oriented thinking.
+
