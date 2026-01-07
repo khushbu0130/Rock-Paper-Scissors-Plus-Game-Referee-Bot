@@ -58,8 +58,10 @@ This separation improves clarity, maintainability, and ease of extension.
 ---
 
 ## Sample Output
+![https://github.com/khushbu0130/rps-plus-game-referee-agent/blob/b9f8b5f4722a91774d5cfd0643567c4bff7be169/Output%20Screenshot.png]
 
 
+---
 
 ## Trade-offs
 - Implemented as a CLI-based conversational loop instead of a graphical UI
@@ -83,4 +85,5 @@ This separation improves clarity, maintainability, and ease of extension.
 - Clean separation of responsibilities
 
 This project demonstrates how agent-style systems can be designed with strong logical foundations and production-oriented thinking.
+
 
