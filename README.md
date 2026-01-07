@@ -55,6 +55,11 @@ Each core responsibility is implemented as a separate tool-like function:
 
 This separation improves clarity, maintainability, and ease of extension.
 
+---
+
+## Sample Output
+![image_alt](https://github.com/khushbu0130/Rock-Paper-Scissors-Plus-Game-Referee-Bot/blob/a289d4dabbdfa280b5ea26f974babae2518291b0/Output%20Screenshot.png)
+
 
 ---
 
@@ -80,6 +85,7 @@ This separation improves clarity, maintainability, and ease of extension.
 - Clean separation of responsibilities
 
 This project demonstrates how agent-style systems can be designed with strong logical foundations and production-oriented thinking.
+
 
 
 
